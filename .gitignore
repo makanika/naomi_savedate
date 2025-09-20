@@ -1,0 +1,256 @@
+# Naomi's Kuhingira Launch - Git Ignore File
+# This file specifies which files and directories should be ignored by Git
+
+# ===================================
+# Operating System Generated Files
+# ===================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===================================
+# Development Environment Files
+# ===================================
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*.un~
+Session.vim
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===================================
+# Web Development Files
+# ===================================
+
+# Node.js (if using build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+.pnp
+.pnp.js
+
+# Package managers
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+
+# CSS preprocessors
+*.css.map
+*.sass.cache
+*.scss.cache
+
+# ===================================
+# Temporary and Cache Files
+# ===================================
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+*.old
+
+# Cache directories
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# ===================================
+# Environment and Configuration
+# ===================================
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Configuration files with sensitive data
+config.local.js
+config.local.json
+secrets.json
+
+# ===================================
+# Testing and Coverage
+# ===================================
+
+# Test coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Test results
+test-results/
+junit.xml
+
+# ===================================
+# Deployment and Production
+# ===================================
+
+# Deployment scripts (if containing sensitive info)
+deploy.sh
+.deploy/
+
+# Production builds
+*.min.js
+*.min.css
+
+# ===================================
+# Documentation and Assets
+# ===================================
+
+# Generated documentation
+docs/generated/
+.docusaurus/
+
+# Large media files (consider using Git LFS instead)
+*.mov
+*.mp4
+*.avi
+*.wmv
+*.flv
+*.webm
+
+# High-resolution images (if not needed in repo)
+*-original.*
+*-backup.*
+
+# ===================================
+# Project Specific
+# ===================================
+
+# Event planning documents (if sensitive)
+guest-list.xlsx
+budget.xlsx
+vendor-contacts.xlsx
+
+# Analytics and tracking data
+analytics/
+tracking/
+
+# Email templates with personal info
+emails/personal/
+
+# ===================================
+# Backup and Archive Files
+# ===================================
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Backup files
+*.backup
+*-backup.*
+backup/
+
+# ===================================
+# Logs and Debug Files
+# ===================================
+
+# Application logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Debug files
+debug/
+*.debug
+
+# ===================================
+# Security and Sensitive Data
+# ===================================
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.csr
+
+# API keys and tokens
+.env.keys
+api-keys.json
+tokens.json
+
+# Database files (if any)
+*.db
+*.sqlite
+*.sqlite3
+
+# ===================================
+# Comments for Team Members
+# ===================================
+
+# This .gitignore is designed for a static HTML event website
+# Add any project-specific files or directories below this line
+# Remember to never commit sensitive information like:
+# - Personal contact information
+# - API keys or tokens
+# - Database credentials
+# - Private vendor information
