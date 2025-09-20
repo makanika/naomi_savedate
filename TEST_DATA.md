@@ -10,8 +10,8 @@ This document provides comprehensive test data and testing scenarios for all fun
 Event Name: Naomi's Kuhingira Launch
 Event Type: Pre-wedding celebration
 Date: October 4, 2025
-Time: 3:00 PM (15:00 local time)
-Duration: 3 hours (3:00 PM - 6:00 PM)
+Time: 2:00 PM (14:00 local time)
+Duration: 3 hours (2:00 PM - 5:00 PM)
 Venue: Afrique Suites Hotel
 Address: Mutungu Gardens, Ring Road
 City: [Location City]
@@ -27,7 +27,7 @@ Base URL: https://www.google.com/calendar/render
 Parameters:
 - action=TEMPLATE
 - text=Naomi's%20Kuhingira%20Launch
-- dates=20251004T120000Z/20251004T150000Z
+- dates=20251004T110000Z/20251004T140000Z
 - details=Join%20us%20to%20celebrate%20with%20Naomi%20before%20her%20Kuhingira!%20Come%20laugh,%20eat,%20dine,%20mingle%20and%20contribute.%20Your%20presence%20will%20be%20highly%20appreciated.%20%23UNFORGETABLEMEMORIES
 - location=Afrique%20Suites%20Hotel,%20Mutungu%20Gardens,%20Ring%20Road
 ```
@@ -42,8 +42,8 @@ UID:naomi-kuhingira-launch-2025@krapht256.com
 DTSTAMP:20241201T000000Z
 ORGANIZER;CN=Naomi:MAILTO:naomi@krapht256.com
 SUMMARY:Naomi's Kuhingira Launch
-DTSTART:20251004T120000Z
-DTEND:20251004T150000Z
+DTSTART:20251004T110000Z
+DTEND:20251004T140000Z
 LOCATION:Afrique Suites Hotel, Mutungu Gardens, Ring Road
 DESCRIPTION:Join us to celebrate with Naomi before her Kuhingira! Come laugh, eat, dine, mingle and contribute. Your presence will be highly appreciated. #UNFORGETABLEMEMORIES
 STATUS:CONFIRMED
@@ -71,7 +71,7 @@ END:VCALENDAR
 #### Test Case 1.2: Countdown Accuracy
 - **Objective**: Verify countdown calculates time correctly
 - **Test Data**: 
-  - Target: October 4, 2025, 3:00 PM
+  - Target: October 4, 2025, 2:00 PM
   - Test Date: December 1, 2024, 12:00 PM
 - **Expected Calculation**:
   - Days: ~307 days (varies by test date)
@@ -101,7 +101,7 @@ END:VCALENDAR
   - Google Calendar opens in new tab
   - Event title: "Naomi's Kuhingira Launch"
   - Date: October 4, 2025
-  - Time: 12:00 PM - 3:00 PM UTC
+  - Time: 11:00 AM - 2:00 PM UTC
   - Location: "Afrique Suites Hotel, Mutungu Gardens, Ring Road"
   - Description includes hashtag and event details
 

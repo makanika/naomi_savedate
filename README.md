@@ -6,7 +6,7 @@ A beautiful, responsive "Save the Date" website for Naomi's Kuhingira Launch cel
 
 - **Event**: Naomi's Kuhingira Launch
 - **Date**: October 4, 2025
-- **Time**: 3:00 PM
+- **Time**: 2:00 PM
 - **Venue**: Afrique Suites Hotel, Mutungu Gardens
 - **Hashtag**: #UNFORGETABLEMEMORIES
 
